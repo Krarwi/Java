@@ -3,10 +3,10 @@ public class FirstJavaTest {
     
     public static void main(String args[]) {
        // Frågar för ditt namn
-       Scanner myObj = new Scanner(System.in);
+       Scanner myFile = new Scanner(System.in);
        System.out.println("Vad är ditt namn?");
        
-       String namn = myObj.nextLine();
+       String namn = myFile.nextLine();
        System.out.println("Min namn är" + namn);
        // Variabler
        int nummer = 3;
